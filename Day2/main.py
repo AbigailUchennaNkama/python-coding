@@ -4,30 +4,19 @@
 in a 2 digit number. e.g. if the input
 was 35, then the output should be 3 + 5 = 8
 """
-
-
-# 🚨 Don't change the code below 👇
 two_digit_number = input("Type a two digit number: ")
-# 🚨 Don't change the code above 👆
-
-####################################
-#Write your code below this line 👇
-
 two_digit_number = str(two_digit_number)
 a = int(two_digit_number[1])
 b = int(two_digit_number[0])
 print(a + b)
+
+
 #EXERCISE 2 - BMI Calculator
 """Write a program that calculates the Body Mass Index (BMI) from a  user's weight and height"""
 # BMI = weight / height^2
 
-# 🚨 Don't change the code below 👇
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
-# 🚨 Don't change the code above 👆
-
-#Write your code below this line 👇
-
 BMI = int(weight) / (float(height) * float(height))
 print(round(BMI))
 
@@ -41,12 +30,7 @@ print(round(BMI))
     You have x days, y weeks, and z months left.
 """
 
-# 🚨 Don't change the code below 👇
 age = input("What is your current age? ")
-# 🚨 Don't change the code above 👆
-
-#Write your code below this line 👇
-
 Years_left = 90 - int(age)
 days_left = 365 * int(Years_left)
 weeks_left = 52 * int(Years_left)
